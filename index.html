@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/inicio.css">
+    <title>Waleska Caetano</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img src="./assets/img/logo.png" alt="logomarca dentista waleska em joao pessoa">
+        </div>
+        <div>
+            <a href="#"><img src="./assets/icons/insta.png" alt="instaram da dentista"></a>
+            <a href="#"><img src="./assets/icons/wp.png" alt="whatsapp da dentista"></a>
+        </div>
+        <div>
+            <ul>
+                <a href="./index.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="#">
+                    <li>Servicos</li>
+                </a>
+                <a href="#sobre">
+                    <li>Sobre</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+            </ul>
+        </div>
+        <div>
+            <a href="#">
+                <button class="btn">Agendar Consulta</button>
+            </a>
+        </div>
+    </header>
+    <div class="risco"></div>
+    <section class="banner">
+        <div>
+            <h1>Não Espere Sentir Dor Para Ir Até o Dentista !</h1>
+            <div class="banner__chamada">
+                <img src="./assets/icons/agenda.png" alt="icone de agenda">
+                <button class="btn">Agende sua Consulta</button>
+            </div>
+        </div>
+        <div class="banner__imagem">
+            <img src="./assets/img/banner.png" alt="banner da pagina">
+        </div>
+    </section>
+    <section class="canal">
+        <div>
+            <img src="assets/img/canal.png" alt="dentista trabalhando" />
+        </div>
+        <div>
+            <h2>Especialista em Tratamento de Canal</h2>
+            <p>A Endodontia desempenha um papel fundamental na preservação da saúde bucal, pois trata das enfermidades
+                que afetam a polpa dentária, a parte interna do dente que contém nervos, vasos sanguíneos e tecido
+                conjuntivo. Quando a polpa é danificada por cárie, trauma ou infecção, podem ocorrer sintomas dolorosos,
+                como sensibilidade, dor aguda ou um incômodo persistente. É nesse momento que a intervenção de um
+                especialista em canal se torna crucial.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+    </section>
+    <section class="clareamento">
+        <div class="clareamento__texto">
+            <h2>Especialista em Clareamento dentario</h2>
+            <p>Tratamento seguro e conservador que devolve a harmonia do seu sorriso , contribuindo com a estética e
+                autoestima do paciente sem causar danos à estrutura dental.</p>
+            <p>Oferecemos um clareamento dental avançado para remover manchas e descolorações, proporcionando um sorriso
+                mais brilhante. Nossa equipe de especialistas se dedica a fornecer um tratamento personalizado, adaptado
+                às necessidades e objetivos de cada paciente.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+        <div>
+            <img src="assets/img/clarear.png" alt="clareamento dos dentes" />
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Clareamento - Antes e Depois</h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/carrossel/clarear-01.jpg"
+                            alt="cuidar da beleza é coisa de homem"></div>
+                    <div class="swiper-slide"><img src="./assets/carrossel/clarear-02.jpg"
+                            alt="vieira proporciona uma experiencia"></div>
+                    <div class="swiper-slide"><img src="./assets/carrossel/clarear-03.jpg"
+                            alt="estamos esperando por você"></div>
+                    ...
+                </div>
+
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+    </section>
+
+    <section class="profissional" id="sobre">
+        <div>
+            <img src="./assets/img/dentista.png" alt="dentista em joao pessoa" />
+        </div>
+        <div class="profissional__texto">
+            <h2>Waleska é uma profissional que você pode confiar !</h2>
+            <p> Uma profissional dedicada e especialista em proporcionar uma experiência confortável e sem dor para seus pacientes. Com sua habilidade excepcional, ela é capaz de explicar de forma clara e compreensível cada procedimento realizado, garantindo que os pacientes entendam completamente o que está acontecendo em seus tratamentos dentários.</p>
+            <p> Sua abordagem cuidadosa e atenciosa cria um ambiente acolhedor, no qual o paciente se sente seguro e confiante em receber os melhores cuidados odontológicos. Com essa dentista, você encontrará uma combinação perfeita entre um profissional experiente, um especialista em sua área e alguém que prioriza o bem-estar do paciente em todos os aspectos do tratamento.</p>
+            <button class="btn">Saiba mais</button>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <h2>Meu local de Atendimento</h2>
+        <div class="mapa__conteudo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.04994962271!2d-34.879490113090355!3d-7.120210151461518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace71d2c1182ed%3A0x144e11b63e34417e!2sConsult%C3%B3rio%20Dra%20Waleska%20Caetano!5e0!3m2!1spt-BR!2sbr!4v1690843074561!5m2!1spt-BR!2sbr" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+    <footer class="rodape">
+        <p>© Corpyright Bruno Holanda - Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 5,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
